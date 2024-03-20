@@ -1,11 +1,27 @@
 body{
     color: lightgrey;
     background-color: #0B1623;
+    margin: 0;
 }
 
-.AboutMeBlock{
-    margin-bottom: 50px;
-    margin-top: 50px;
+.MenuBar{
+    background-color: grey;   
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    float: left;
+}
+
+li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    padding: 16px 10px;
 }
 
 .Project{
@@ -25,8 +41,4 @@ body{
 .ProjectOneLink{
     height: 20px;
     width: 20px
-}
-
-span{
-    color:darkslategray
 }
