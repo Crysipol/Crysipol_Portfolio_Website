@@ -8,15 +8,15 @@ body{
     margin-top: 50px;
 }
 
-.ProjectOne{
+.Project{
     display: flex;
     justify-content: left;
 }
-.projectOneDes{
+.ProjectDes{
     flex-grow: 50%;
 }
 
-.ProjectOneImage{
+.ProjectImage{
     flex-grow: 50%;
 }
 
